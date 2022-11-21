@@ -647,8 +647,7 @@ class Controls:
         if self.CP.steerControlType == car.CarParams.SteerControlType.angle:
           steering_value = actuators.steeringAngleDeg
         elif self.CP.steerControlType == car.CarParams.SteerControlType.curvature:
-          # TODO: is this correct?
-          steering_value = -actuators.curvature
+          steering_value = actuators.curvature
         else:
           steering_value = actuators.steer
 
