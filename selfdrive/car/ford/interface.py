@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from common.conversions import Conversions as CV
-from selfdrive.car import STD_CARGO_KG, scale_rot_inertia, scale_tire_stiffness, gen_empty_fingerprint, get_safety_config
-from selfdrive.car.ford.values import CAR, CarParams, Ecu, TransmissionType, GearShifter
+from selfdrive.car import STD_CARGO_KG, gen_empty_fingerprint, get_safety_config, scale_rot_inertia, scale_tire_stiffness
+from selfdrive.car.ford.values import CAR, CarParams, Ecu, GearShifter, TransmissionType
 from selfdrive.car.interfaces import CarInterfaceBase
 
 
